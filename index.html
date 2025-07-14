@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container"></div>
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter the city">
+        <button onclick="searchweather()">
+            <img src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="Search" width="20" height="20">
+        </button>
+    </div>
+    <div class="weather-info" id="weatherInfo" style="display: none">
+    <img id="weatherIcon" src="" alt="Weather Icon">
+    <h1 id="temp"></h1>
+    <h2 id="desc"></h2>
+    <div class="details">
+      <p><span id="humidity"></span> Humidity</p>
+      <p><span id="wind"></span> Wind Speed</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

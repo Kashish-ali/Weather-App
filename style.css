@@ -1,0 +1,59 @@
+body{
+    background-image: url(cloud.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+    font-family:arial,sans-serif,helvetica;
+    padding:31px;
+    text-align:center;
+    min-height:100vh;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+.search-box  input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+.search-box button {
+    padding: 8px 10px;
+    border: none;
+    background-color: #555;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .weather-info img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .weather-info h1{
+    font-size:35px;
+    margin:10px 0 5px;
+    text-overflow: unset;
+  }
+
+  .weather-info h2{
+    font-size:20px;
+    margin:0;
+    color:#555;
+    text-overflow: unset;
+  }
+
+  .details{
+    margin-top:20px;
+  }
+
+  .details p{
+      margin:5px 0px;
+      font-size: 16px;
+  }
